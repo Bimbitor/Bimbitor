@@ -1,0 +1,5 @@
+- 👋 Hey, I’m @Bimbitor
+- 👀 I’m interested in learning Data Science
+- 🌱 I’m currently learning Python
+- 💞️ I’m looking to collaborate on Optimized - Oriented Projects
+- 📫 Reach me on Twitter: @Bimbitor
