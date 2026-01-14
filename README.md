@@ -59,18 +59,6 @@
   <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Bimbitor&theme=react&layout=compact" />
 </p>
 
-# 📊 GitHub Stats
-<p align="center">
-  <img src="https://img.shields.io/github/followers/Bimbitor?label=Followers&style=for-the-badge&color=24292e&logo=github" />
-  <img src="https://img.shields.io/github/stars/Bimbitor?label=Total%20Stars&style=for-the-badge&color=24292e&logo=github" />
-  <img src="https://img.shields.io/github/commit-activity/m/Bimbitor?label=Commits&style=for-the-badge&color=24292e&logo=github" />
-</p>
-
-# 📊 GitHub Stats
-<p align="center">
-  <img src="https://github.com/Bimbitor/Bimbitor/blob/master/github-metrics.svg" alt="Metrics" />
-</p>
-
 ---
 
 ## 📫 Contact
