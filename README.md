@@ -1,85 +1,77 @@
-<!-- HEADER -->
 <div align="center" width="100">
   <img src="https://capsule-render.vercel.app/api?color=0:1408d0,50:0860d0,100:08c4d0&height=250&section=header&text=Hey!&fontSize=30&type=waving&fontColor=fefefe&&animation=fadeIn"
   alt="header"/>
 </div>
 
-# 💫 About Me:
+# 💫 Javi Giraldo
+### Data Engineer | Data Science Career Student | Software Engineering Student
 
+---
 
-<ul>
-    <li>👀 Currently working as <strong>Data Engineer at BCD Travel</strong></li>
-    <li>🌱 Learning <strong>AI Development (DL)</strong>. Software Engineering Student.</li>
-    <li>🧐 Looking for projects or organizations focused on optimizing processes in a scalable way.</li>
-    <li>💙 I like <strong>Aerospacial Engineering</strong>, math and data management.</li>
-    <li>📫 Reach me on:
-        <a href="https://twitter.com/Bimbitor" target="_blank">Twitter</a> or
-        <a href="https://www.linkedin.com/in/javi-giraldo/" target="_blank">LinkedIn</a>
-    </li>
-</ul>
+## 👨‍💻 About Me
 
-# 💻 Tech Stack:
+* 💼 **Current Role**: Data Engineer at **BCD Travel**.
+* 🎓 **Education**: Pursuing a career in **Data Science** and completing a degree in **Software Engineering**.
+* 🌍 **Languages**: English Level **B1**.
+* 🚀 **Focus**: Designing scalable ETL/ELT pipelines, data modeling, and architectural efficiency.
+* 💙 **Interests**: Aerospace Engineering, Mathematics, and high-performance Data Management.
 
-### 👨‍💻 Programming Languages
+---
 
-<p>
-    <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?logo=javascript&logoColor=black"></a>
-    <a href="#"><img alt="Python" src="https://img.shields.io/badge/Python%20-%2314354C.svg?logo=python&logoColor=white"></a>
-    <a href="#"><img alt="SQL" 
-src="https://img.shields.io/badge/SQL-brightgreen?color=%23dc7939"></a>
-    <a href="#"><img alt="Java" 
-src="https://img.shields.io/badge/Java-brightgreen?logo=coffeescript&logoColor=white&color=%23e10b10"></a>
+## 🛠️ Tech Stack
 
+### ☁️ Data Engineering & Cloud (AWS Specialized)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
+![Glue](https://img.shields.io/badge/AWS%20Glue-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
+![Redshift](https://img.shields.io/badge/Amazon%20Redshift-8C4FFF?style=for-the-badge&logo=amazon-redshift&logoColor=white)
+![Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
+![SSIS](https://img.shields.io/badge/Microsoft%20SSIS-C28FFA?style=for-the-badge&logo=onlyoffice&logoColor=white)
+
+### 📊 Data Science & Analysis
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-DC7939?style=for-the-badge&logo=postgresql&logoColor=white)
+![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+
+### 🗄️ Databases & Deployment
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+
+### 🔧 Automation & Infrastructure
+![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+---
+
+# 📊 GitHub Stats
+<p align="center">
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Bimbitor&theme=react&show_icons=true&include_all_commits=true&count_private=true" />
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Bimbitor&theme=react&layout=compact" />
 </p>
 
-### 🧰 Frameworks and Libraries
-
-<p>
-    <a href="#"><img alt="Django" src="https://img.shields.io/badge/Django-brightgreen?logo=django&logoColor=white&color=%23113527"></a>
-    <a href="#"><img alt="Node" src="https://img.shields.io/badge/Node-brightgreen?logo=nodedotjs&logoColor=white&color=%2386cf31"></a>
-    <a href="#"><img alt="Microsoft SSIS" src="https://img.shields.io/badge/Microsoft%20SSIS-brightgreen?logo=onlyoffice&logoColor=white&color=%23c28ffa"></a>
-    <a href="#"><img alt="Keras" src="https://img.shields.io/badge/Keras%20-%23D00000.svg?logo=Keras&logoColor=white"></a>
+# 📊 GitHub Stats
+<p align="center">
+  <img src="https://img.shields.io/github/followers/Bimbitor?label=Followers&style=for-the-badge&color=24292e&logo=github" />
+  <img src="https://img.shields.io/github/stars/Bimbitor?label=Total%20Stars&style=for-the-badge&color=24292e&logo=github" />
+  <img src="https://img.shields.io/github/commit-activity/m/Bimbitor?label=Commits&style=for-the-badge&color=24292e&logo=github" />
 </p>
 
-### 🗄️ Databases and Cloud Hosting
+---
 
-<p>
-    <a href="#"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-%23327FC7.svg?logo=github&logoColor=white"></a>
-    <a href="#"><img alt="Firebase" src ="https://img.shields.io/badge/PostgreSQL-brightgreen?logo=postgresql&logoColor=white&color=%2331648C"></a>
-    <a href="#"><img alt="Firebase" src ="https://img.shields.io/badge/MySQL-brightgreen?logo=mysql&logoColor=white&color=%234479A1"></a>
-    <a href="#"><img alt="Firebase" src ="https://img.shields.io/badge/Render-brightgreen?logoColor=white&color=%239945FF"></a>
-</p>
+## 📫 Contact
+* **LinkedIn**: [javi-giraldo](https://www.linkedin.com/in/javi-giraldo/)
+* **Twitter**: [@Bimbitor](https://twitter.com/Bimbitor)
 
-### 💻 Software and Tools
-
-<p>
-    <a href="#"><img alt="Colab" src="https://img.shields.io/badge/Colab-00b56a.svg?logo=google-colab&logoColor=white"></a>
-    <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git%20-%23F05033.svg?logo=git&logoColor=white"></a>
-    <a href="#"><img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white"></a>
-    <a href="#"><img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black"></a>
-    <a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?logo=visual-studio-code&logoColor=white"></a>
-    <a href="#"><img alt="Visual Studio" src="https://img.shields.io/badge/Visual%20Studio-brightgreen?logo=onlyoffice&logoColor=white&color=%23c28ffa"></a>
-    <a href="#"><img alt="Power BI" src="https://img.shields.io/badge/Power%20BI-brightgreen?logo=onlyoffice&logoColor=white&color=%23f1cd19"></a>
-<a href="#"><img alt="Power BI" src="https://img.shields.io/badge/Terminal-brightgreen?logo=gnometerminal&logoColor=white&color=%23221E68"></a>
-</p>
-
-### 💻 Learning
-
-<p>
-    <a href="#"><img alt="Keras" src="https://img.shields.io/badge/Keras%20-%23D00000.svg?logo=Keras&logoColor=white"></a>
-    <a href="#"><img alt="NumPy" src="https://img.shields.io/badge/Numpy%20-%23013243.svg?logo=numpy&logoColor=white"></a>
-    <a href="#"><img alt="Pandas" src="https://img.shields.io/badge/Pandas%20-%23150458.svg?logo=pandas&logoColor=white"></a>
-    <a href="#"><img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow%20-%23FF6F00.svg?logo=TensorFlow&logoColor=white"></a>
-
-
-# 📊 GitHub Stats:
-<p align= "center">
-  <img height= "150" src="https://github-readme-stats.vercel.app/api?username=Bimbitor&theme=react&show_icons=true&include_all_commits=true" />
-  <img height= "150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bimbitor&theme=react&layout=compact" />
-</p>
-
-
-<!-- FOOTER -->
 <div align="center" width="100">
   <img src="https://capsule-render.vercel.app/api?color=0:1408d0,50:0860d0,100:08c4d0&height=100&section=footer&fontSize=30&type=waving&fontColor=fefefe"
   alt="footer" />
