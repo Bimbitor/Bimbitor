@@ -66,6 +66,11 @@
   <img src="https://img.shields.io/github/commit-activity/m/Bimbitor?label=Commits&style=for-the-badge&color=24292e&logo=github" />
 </p>
 
+# 📊 GitHub Stats
+<p align="center">
+  <img src="https://github.com/Bimbitor/Bimbitor/blob/master/github-metrics.svg" alt="Metrics" />
+</p>
+
 ---
 
 ## 📫 Contact
