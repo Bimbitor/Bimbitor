@@ -1,83 +1,82 @@
 <div align="center">
 
-# Hi there, I'm Javi Giraldo 👋
-### Database Developer | Data Engineering & Data Science Specialist
-
-<a href="https://www.linkedin.com/in/javi-giraldo/">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="mailto:javijohanro30@hotmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=outlook&logoColor=white" alt="Email"/>
-</a>
-<a href="https://github.com/Bimbitor/CV-as-Code/blob/main/CV/ENG/rendercv_output/Javi_Giraldo_CV.pdf">
-  <img src="https://img.shields.io/badge/Resume/CV-Portfolio-black?style=for-the-badge&logo=github" alt="Portfolio"/>
-</a>
+<img src="assets/banner.svg" alt="Javi Giraldo, Database Developer moving into Data Engineering. A medallion pipeline: sources, bronze, silver, gold and insight." width="100%"/>
 
 <br/><br/>
 
-I specialize in **High-Performance Database Systems** and **Cloud Data Architectures**.  
-Currently leveraging my expertise in backend data management to build **scalable Data Engineering solutions** and automated pipelines.
+<a href="https://www.linkedin.com/in/javi-giraldo/"><img src="https://img.shields.io/badge/LinkedIn-Javi%20Giraldo-0A66C2?style=for-the-badge" alt="LinkedIn"/></a>
+<a href="https://github.com/Bimbitor/Bimbitor/blob/main/cv/CV_Javi_Giraldo_EN.pdf"><img src="https://img.shields.io/badge/Resume-English%20PDF-0F172A?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume in English (PDF)"/></a>
+<a href="https://github.com/Bimbitor/Bimbitor/blob/main/cv/CV_Javi_Giraldo_ES.pdf"><img src="https://img.shields.io/badge/Hoja%20de%20vida-Espa%C3%B1ol%20PDF-0F172A?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Hoja de vida en español (PDF)"/></a>
+<a href="https://builder.aws.com/community/@bimbitor"><img src="https://img.shields.io/badge/AWS%20Builder%20Center-@bimbitor-232F3E?style=for-the-badge" alt="AWS Builder Center"/></a>
+<a href="mailto:javijohanro30@hotmail.com"><img src="https://img.shields.io/badge/Email-Write%20me-0078D4?style=for-the-badge" alt="Email"/></a>
 
 </div>
 
----
+## About me
 
-### 🚀 About Me
+I'm a **Database Developer at BCD Travel** in Bogotá. For more than two years I've built and maintained the SQL Server and SSIS processes behind corporate travel reporting: ETL packages, T-SQL procedures and views, schema changes, Power BI and SSRS reports, and Python jobs that pull data from REST APIs into SQL Server.
 
-I am a **Database Developer** with a strong foundation in data modeling, query optimization, and system integrity. My transition into Data Engineering is driven by a focus on **scalability and automation**. I don't just query databases; I architect the infrastructure that makes data accessible and reliable for business intelligence.
+Now I'm taking that experience to the cloud. I'm learning **Apache Spark, AWS and Apache Airflow** by building real, public projects with real data, and I'm studying **Data Science** at Fundación Universitaria Compensar (5th semester).
 
-* 🔭 **Current Focus:** Migrating legacy SQL architectures to **Cloud Data Lakes (AWS)** and implementing **Serverless ETL** workflows.
-* 💼 **Professional Experience:** Database Developer at **BCD Travel** (Optimization, T-SQL/PL-SQL, Data Warehousing).
-* ⚡ **Core Philosophy:** "Efficiency in code, reliability in data." — Focusing on low-latency queries and fault-tolerant pipelines.
+## How I build pipelines
 
----
+- **Contract first.** Inputs, outputs, grain and keys are written down before any code.
+- **Validate going in and coming out.** Bad rows go to quarantine with a reason, and the counts must reconcile: input = output + quarantine.
+- **Idempotent by default.** Any run can be repeated for the same date without creating duplicates.
+- **Measure, then optimize.** Execution plans, the Spark UI and bytes scanned come before any tuning.
+- **No black boxes.** If I can't explain a step, it doesn't ship.
 
-### 🛠️ Tech Stack & Architecture
+## Currently building
 
-*Comprehensive toolkit for end-to-end data solutions.*
+### flights-weather-lakehouse &nbsp;![status](https://img.shields.io/badge/status-in%20progress-F59E0B?style=flat-square)
 
-| Domain | Ecosystem & Tools |
-| :--- | :--- |
-| **Cloud & Data Eng (AWS)** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Glue](https://img.shields.io/badge/AWS%20Glue-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white) ![Redshift](https://img.shields.io/badge/Amazon%20Redshift-8C4FFF?style=flat-square&logo=amazon-redshift&logoColor=white) ![S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=flat-square&logo=amazons3&logoColor=white) ![Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square&logo=apache-airflow&logoColor=white) |
-| **Databases & ETL** | ![SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![SSIS](https://img.shields.io/badge/Microsoft%20SSIS-C28FFA?style=flat-square&logo=onlyoffice&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-DC7939?style=flat-square&logo=postgresql&logoColor=white) |
-| **Data Science & Analytics** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white) |
-| **Backend & Web** | ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) |
-| **DevOps & Automation** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05033?style=flat-square&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=flat-square&logo=gnu-bash&logoColor=white) ![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=flat-square&logo=google&logoColor=white) |
+Which US airlines, routes and time slots carry the highest risk of delays and cancellations, and how much of that risk does the weather at the origin airport explain?
 
----
-<!-- comentario
- ### 🏆 Featured Projects & Implementations
+```mermaid
+flowchart LR
+  BTS["BTS On-Time flights<br/>~26M rows, 2023 to 2026"] --> BR[("S3 bronze")]
+  AP["OurAirports"] --> BR
+  BR --> J1["AWS Glue 6.0 · PySpark<br/>clean and validate"]
+  NOAA["NOAA GHCN daily weather<br/>public S3 bucket"] --> J1
+  J1 --> SI[("S3 silver")]
+  J1 --> Q[("quarantine")]
+  SI --> J2["AWS Glue 6.0 · PySpark<br/>joins and windows"]
+  J2 --> GO[("S3 gold")]
+  GO --> CAT["Glue Data Catalog"] --> ATH["Amazon Athena"]
+  AF{{"Apache Airflow 3"}} -. orchestrates .-> J1
+  AF -. orchestrates .-> J2
+```
 
-#### 🗄️ [Enterprise Data Warehouse Optimization](https://github.com/Bimbitor/NOMBRE-DEL-REPO-SQL)
-> *Advanced SQL performance tuning and architectural restructuring.*
+- [ ] Bronze: 44 months of flight data landed in S3, partitioned by ingestion date
+- [ ] Silver: typed, deduplicated and validated, with a quarantine for rejected rows
+- [ ] Gold: every flight enriched with the weather at its origin airport
+- [ ] Glue jobs, Data Catalog and business queries in Athena
+- [ ] Airflow 3 DAG with monthly runs and backfill
+- [ ] Tests with pytest and data quality checks
 
-* **The Challenge:** High-latency reporting queries affecting business decision-making speed in production environments.
-* **The Solution:** Redesigned the schema using **Dimensional Modeling (Star Schema)**, implemented complex **Stored Procedures**, and optimized indexing strategies using execution plan analysis.
-* **Impact:** 🚀 Reduced query execution time by **40%** and improved data retrieval efficiency for BI tools (Power BI/Excel).
+Repository: [Bimbitor/flights-weather-lakehouse](https://github.com/Bimbitor/flights-weather-lakehouse)
 
----
+## Tech stack
 
-#### ☁️ [Serverless ETL Pipeline Migration](https://github.com/Bimbitor/NOMBRE-DEL-REPO-ETL)
-> *Modernizing legacy data flows using AWS Cloud Native tools.*
+| | |
+|:--|:--|
+| **In production, every day** | ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square) ![T-SQL](https://img.shields.io/badge/T--SQL-CC2927?style=flat-square) ![SSIS](https://img.shields.io/badge/SSIS-5C2D91?style=flat-square) ![SSRS](https://img.shields.io/badge/SSRS-5C2D91?style=flat-square) ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square) ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square) |
+| **Building with now** | ![Apache Spark](https://img.shields.io/badge/Apache%20Spark%20%7C%20PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) ![Amazon S3](https://img.shields.io/badge/Amazon%20S3-232F3E?style=flat-square) ![AWS Glue](https://img.shields.io/badge/AWS%20Glue-232F3E?style=flat-square) ![Amazon Athena](https://img.shields.io/badge/Amazon%20Athena-232F3E?style=flat-square) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Parquet](https://img.shields.io/badge/Parquet-50ABF1?style=flat-square&logo=apacheparquet&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![Linux](https://img.shields.io/badge/Linux%20%26%20WSL-333333?style=flat-square&logo=linux&logoColor=white) |
+| **Next on the roadmap** | ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white) ![Delta Lake](https://img.shields.io/badge/Delta%20Lake-003366?style=flat-square&logo=delta&logoColor=white) ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white) ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) |
 
-* **The Challenge:** Moving from on-premise manual data loads (SSIS/Scripts) to an automated cloud environment.
-* **The Solution:** Built an event-driven pipeline using **AWS Lambda** for extraction and **AWS Glue** for transformation, loading directly into **Redshift**.
-* **Impact:** ⚙️ Achieved **fully automated daily ingestion** with zero server maintenance overhead.
+## Certification roadmap
 
----
+| Certification | Target | Status |
+|:--|:--|:--|
+| Astronomer: Apache Airflow 3 Fundamentals | Dec 2026 | Preparing |
+| AWS Certified Cloud Practitioner | Jan 2027 | Preparing |
+| Databricks Certified Data Engineer Associate | Mar 2027 | Planned |
+| SnowPro Core | Apr 2027 | Planned |
 
-#### 🔍 [Automated Data Quality & Validation System](https://github.com/Bimbitor/NOMBRE-DEL-REPO-QUALITY)
-> *Ensuring data integrity before it hits production.*
+## Writing
 
-* **The Challenge:** Inconsistent data formats from third-party APIs causing failures in downstream applications.
-* **The Solution:** Developed a Python-based validation framework (utilizing **Pandas** and **Great Expectations**) integrated into the CI/CD pipeline.
-* **Impact:** 🛡️ Prevented corrupt data ingestion, maintaining **99.9% data accuracy** in the warehouse.
-
----
- -->
-### 📈 GitHub Stats
+I share what I learn on [AWS Builder Center](https://builder.aws.com/community/@bimbitor), in Spanish and English.
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Bimbitor&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true" height="160" alt="Javi's Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bimbitor&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="160" alt="Top Languages" />
+<sub>Bogotá, Colombia (GMT-5) · Spanish (native) · English (B2) · Happy to talk about SQL performance, ETL and data pipelines</sub>
 </div>
