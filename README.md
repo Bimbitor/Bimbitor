@@ -16,45 +16,7 @@
 
 I'm a **Database Developer at BCD Travel** in Bogotá. For more than two years I've built and maintained the SQL Server and SSIS processes behind corporate travel reporting: ETL packages, T-SQL procedures and views, schema changes, Power BI and SSRS reports, and Python jobs that pull data from REST APIs into SQL Server.
 
-Now I'm taking that experience to the cloud. I'm learning **Apache Spark, AWS and Apache Airflow** by building real, public projects with real data, and I'm studying **Data Science** at Fundación Universitaria Compensar (5th semester).
-
-## How I build pipelines
-
-- **Contract first.** Inputs, outputs, grain and keys are written down before any code.
-- **Validate going in and coming out.** Bad rows go to quarantine with a reason, and the counts must reconcile: input = output + quarantine.
-- **Idempotent by default.** Any run can be repeated for the same date without creating duplicates.
-- **Measure, then optimize.** Execution plans, the Spark UI and bytes scanned come before any tuning.
-- **No black boxes.** If I can't explain a step, it doesn't ship.
-
-## Currently building
-
-### flights-weather-lakehouse &nbsp;![status](https://img.shields.io/badge/status-in%20progress-F59E0B?style=flat-square)
-
-Which US airlines, routes and time slots carry the highest risk of delays and cancellations, and how much of that risk does the weather at the origin airport explain?
-
-```mermaid
-flowchart LR
-  BTS["BTS On-Time flights<br/>~26M rows, 2023 to 2026"] --> BR[("S3 bronze")]
-  AP["OurAirports"] --> BR
-  BR --> J1["AWS Glue 6.0 · PySpark<br/>clean and validate"]
-  NOAA["NOAA GHCN daily weather<br/>public S3 bucket"] --> J1
-  J1 --> SI[("S3 silver")]
-  J1 --> Q[("quarantine")]
-  SI --> J2["AWS Glue 6.0 · PySpark<br/>joins and windows"]
-  J2 --> GO[("S3 gold")]
-  GO --> CAT["Glue Data Catalog"] --> ATH["Amazon Athena"]
-  AF{{"Apache Airflow 3"}} -. orchestrates .-> J1
-  AF -. orchestrates .-> J2
-```
-
-- [ ] Bronze: 44 months of flight data landed in S3, partitioned by ingestion date
-- [ ] Silver: typed, deduplicated and validated, with a quarantine for rejected rows
-- [ ] Gold: every flight enriched with the weather at its origin airport
-- [ ] Glue jobs, Data Catalog and business queries in Athena
-- [ ] Airflow 3 DAG with monthly runs and backfill
-- [ ] Tests with pytest and data quality checks
-
-Repository: [Bimbitor/flights-weather-lakehouse](https://github.com/Bimbitor/flights-weather-lakehouse)
+Now I'm taking that experience to the cloud. I'm learning **Apache Spark, AWS and Apache Airflow**, and I'm studying **Data Science** at Fundación Universitaria Compensar (5th semester).
 
 ## Tech stack
 
