@@ -8,7 +8,7 @@
 <a href="https://github.com/Bimbitor/Bimbitor/blob/main/cv/CV_Javi_Giraldo_EN.pdf"><img src="https://img.shields.io/badge/Resume-English%20PDF-0284C7?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume in English (PDF)"/></a>
 <a href="https://github.com/Bimbitor/Bimbitor/blob/main/cv/CV_Javi_Giraldo_ES.pdf"><img src="https://img.shields.io/badge/Hoja%20de%20vida-Espa%C3%B1ol%20PDF-0284C7?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Hoja de vida en español (PDF)"/></a>
 <a href="https://builder.aws.com/community/@bimbitor"><img src="https://img.shields.io/badge/AWS%20Builder%20Center-@bimbitor-FF9900?style=for-the-badge" alt="AWS Builder Center"/></a>
-<a href="mailto:javijohanro30@hotmail.com"><img src="https://img.shields.io/badge/Email-Write%20me-0078D4?style=for-the-badge" alt="Email"/></a>
+<a href="mailto:javidatastudio@gmail.com"><img src="https://img.shields.io/badge/Email-Write%20me-0078D4?style=for-the-badge" alt="Email"/></a>
 
 </div>
 
