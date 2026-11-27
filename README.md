@@ -23,7 +23,7 @@ Now I'm taking that experience to the cloud. I'm learning **Apache Spark, AWS an
 | Level | Tools |
 |:--|:--|
 | **In production, every day** | ![SQL Server](assets/badges/sql-server.svg) ![T-SQL](assets/badges/t-sql.svg) ![SSIS](assets/badges/ssis.svg) ![SSRS](assets/badges/ssrs.svg) ![Power BI](assets/badges/power-bi.svg) ![Python](assets/badges/python.svg) ![pandas](assets/badges/pandas.svg) ![Git](assets/badges/git.svg) ![Azure DevOps](assets/badges/azure-devops.svg) ![Excel](assets/badges/excel.svg) |
-| **Building with now** | ![Apache Spark](assets/badges/pyspark.svg) ![Amazon S3](assets/badges/amazon-s3.svg) ![AWS Glue](assets/badges/aws-glue.svg) ![Amazon Athena](assets/badges/amazon-athena.svg) ![Apache Airflow](assets/badges/apache-airflow.svg) ![Docker](assets/badges/docker.svg) ![Parquet](assets/badges/parquet.svg) ![pytest](assets/badges/pytest.svg) ![Linux](assets/badges/linux.svg) |
+| **Building with now** | ![Apache Spark](assets/badges/apache-spark.svg) ![Amazon S3](assets/badges/amazon-s3.svg) ![AWS Glue](assets/badges/aws-glue.svg) ![Amazon Athena](assets/badges/amazon-athena.svg) ![Apache Airflow](assets/badges/apache-airflow.svg) ![Docker](assets/badges/docker.svg) ![Parquet](assets/badges/parquet.svg) ![pytest](assets/badges/pytest.svg) ![Linux](assets/badges/linux.svg) |
 | **Next on the roadmap** | ![Databricks](assets/badges/databricks.svg) ![Delta Lake](assets/badges/delta-lake.svg) ![Snowflake](assets/badges/snowflake.svg) ![dbt](assets/badges/dbt.svg) ![MongoDB](assets/badges/mongodb.svg) |
 
 ## Certification roadmap

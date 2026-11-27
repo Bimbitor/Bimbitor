@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="192" height="34" role="img" aria-label="Hoja de vida en español (PDF)">
+<svg xmlns="http://www.w3.org/2000/svg" width="183" height="34" role="img" aria-label="Hoja de vida en español (PDF)">
   <title>Hoja de vida en español (PDF)</title>
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
@@ -6,8 +6,8 @@
       <stop offset="1" stop-color="#02679b"/>
     </linearGradient>
   </defs>
-  <rect width="192" height="34" rx="17" fill="url(#g)"/>
-  <rect x="0.5" y="0.5" width="191" height="33" rx="16.5" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+  <rect width="183" height="34" rx="17" fill="url(#g)"/>
+  <rect x="0.5" y="0.5" width="182" height="33" rx="16.5" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
   
-  <text x="20" y="21.5" fill="#ffffff" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.2" textLength="152" lengthAdjust="spacing">HOJA DE VIDA · PDF</text>
+  <text x="20" y="21.5" fill="#ffffff" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.2" textLength="143" lengthAdjust="spacing">HOJA DE VIDA · ES</text>
 </svg>
