@@ -1,11 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="125" height="28" role="img" aria-label="Email">
+<svg xmlns="http://www.w3.org/2000/svg" width="175" height="34" role="img" aria-label="Email">
   <title>Email</title>
-  <g shape-rendering="crispEdges">
-    <rect width="51" height="28" fill="#555555"/>
-    <rect x="51" width="74" height="28" fill="#0078D4"/>
-  </g>
-  <g fill="#FFFFFF" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="10" font-weight="bold" letter-spacing="1">
-    <text x="25.5" y="18" textLength="39" lengthAdjust="spacing">EMAIL</text>
-    <text x="88" y="18" textLength="62" lengthAdjust="spacing">WRITE ME</text>
-  </g>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#005ea5"/>
+    </linearGradient>
+  </defs>
+  <rect width="175" height="34" rx="17" fill="url(#g)"/>
+  <rect x="0.5" y="0.5" width="174" height="33" rx="16.5" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+  
+  <text x="20" y="21.5" fill="#ffffff" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.2" textLength="135" lengthAdjust="spacing">EMAIL · WRITE ME</text>
 </svg>
