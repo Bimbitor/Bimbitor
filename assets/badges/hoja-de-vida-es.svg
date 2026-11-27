@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="199" height="28" role="img" aria-label="Hoja de vida en español (PDF)">
+  <title>Hoja de vida en español (PDF)</title>
+  <g shape-rendering="crispEdges">
+    <rect width="103" height="28" fill="#555555"/>
+    <rect x="103" width="96" height="28" fill="#0284C7"/>
+  </g>
+  <g fill="#FFFFFF" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="10" font-weight="bold" letter-spacing="1">
+    <text x="51.5" y="18" textLength="91" lengthAdjust="spacing">HOJA DE VIDA</text>
+    <text x="151" y="18" textLength="84" lengthAdjust="spacing">ESPAÑOL PDF</text>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="155" height="28" role="img" aria-label="Resume in English (PDF)">
+  <title>Resume in English (PDF)</title>
+  <g shape-rendering="crispEdges">
+    <rect width="59" height="28" fill="#555555"/>
+    <rect x="59" width="96" height="28" fill="#0284C7"/>
+  </g>
+  <g fill="#FFFFFF" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="10" font-weight="bold" letter-spacing="1">
+    <text x="29.5" y="18" textLength="47" lengthAdjust="spacing">RESUME</text>
+    <text x="107" y="18" textLength="84" lengthAdjust="spacing">ENGLISH PDF</text>
+  </g>
+</svg>

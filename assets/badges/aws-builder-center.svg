@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="229" height="28" role="img" aria-label="AWS Builder Center: @bimbitor">
+  <title>AWS Builder Center: @bimbitor</title>
+  <g shape-rendering="crispEdges">
+    <rect width="148" height="28" fill="#555555"/>
+    <rect x="148" width="81" height="28" fill="#FF9900"/>
+  </g>
+  <g fill="#FFFFFF" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="10" font-weight="bold" letter-spacing="1">
+    <text x="74" y="18" textLength="136" lengthAdjust="spacing">AWS BUILDER CENTER</text>
+    <text x="188.5" y="18" textLength="69" lengthAdjust="spacing">@BIMBITOR</text>
+  </g>
+</svg>
