@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Javi Giraldo, Database Developer moving into Data Engineering. A medallion pipeline: sources, bronze, silver, gold and insight." width="100%"/>
+<img src="assets/banner.svg" alt="Javi Giraldo, Database Developer moving into Data Engineering. Reliable data at scale, efficient systems by design." width="100%"/>
 
 <br/><br/>
 

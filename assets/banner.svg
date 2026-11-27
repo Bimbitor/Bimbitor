@@ -1,89 +1,122 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">Javi Giraldo, Database Developer moving into Data Engineering</title>
-  <desc id="desc">Banner with a medallion data pipeline: sources flow into bronze, silver and gold layers and end in analytics.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="bt bd">
+  <title id="bt">Javi Giraldo, Database Developer moving into Data Engineering</title>
+  <desc id="bd">A lattice of data cells with a lit route ascending across four stages: ingest, model, orchestrate and serve.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B1120"/>
-      <stop offset="1" stop-color="#112240"/>
-    </linearGradient>
-    <linearGradient id="flow" gradientUnits="userSpaceOnUse" x1="718" y1="150" x2="1104" y2="150">
-      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.15"/>
-      <stop offset="0.35" stop-color="#CD7F32" stop-opacity="0.7"/>
-      <stop offset="0.65" stop-color="#CBD5E1" stop-opacity="0.7"/>
-      <stop offset="1" stop-color="#FBBF24" stop-opacity="0.9"/>
+      <stop offset="0" stop-color="#0B1120"/><stop offset="1" stop-color="#112240"/>
     </linearGradient>
     <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1.2" fill="#94A3B8"/>
     </pattern>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="b"/>
+    <radialGradient id="depth" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.13"/><stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="route" gradientUnits="userSpaceOnUse" x1="670" y1="217" x2="1120" y2="89">
+      <stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <path id="pipe" d="M 718 150 L 1104 150"/>
   </defs>
 
   <rect width="1200" height="300" rx="22" fill="url(#bg)"/>
   <rect width="1200" height="300" rx="22" fill="url(#dots)" opacity="0.07"/>
+  <ellipse cx="900" cy="150" rx="300" ry="150" fill="url(#depth)"/>
 
-  <!-- Text block -->
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif">
-    <text x="64" y="84" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="16" fill="#38BDF8" letter-spacing="1">&gt; data engineering, one pipeline at a time</text>
+    <text x="64" y="84" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="16" fill="#38BDF8" letter-spacing="1">&gt; reliable data at scale, efficient systems by design</text>
     <text x="62" y="146" font-size="62" font-weight="700" fill="#F8FAFC">Javi Giraldo</text>
     <text x="64" y="192" font-size="26" fill="#CBD5E1">Database Developer <tspan fill="#38BDF8">→</tspan> Data Engineer</text>
     <text x="64" y="236" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="16" fill="#7DD3FC">SQL Server · SSIS · Python · PySpark · AWS · Airflow</text>
-    <text x="64" y="266" font-size="15" fill="#64748B">Bogotá, Colombia · building ETL for corporate travel since 2024</text>
+    <text x="64" y="266" font-size="15" fill="#64748B">Bogotá, Colombia · building data solutions for corporate travel since 2024</text>
   </g>
 
-  <!-- Pipeline -->
-  <text x="923" y="78" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#64748B" letter-spacing="2">MEDALLION PIPELINE</text>
-  <use href="#pipe" stroke="url(#flow)" stroke-width="4" stroke-linecap="round" fill="none"/>
-
-  <!-- moving records -->
-  <g fill="#7DD3FC">
-    <circle r="4.5"><animateMotion dur="4.5s" repeatCount="indefinite" begin="0s"><mpath href="#pipe"/></animateMotion></circle>
-    <circle r="4.5"><animateMotion dur="4.5s" repeatCount="indefinite" begin="1.5s"><mpath href="#pipe"/></animateMotion></circle>
-    <circle r="4.5"><animateMotion dur="4.5s" repeatCount="indefinite" begin="3s"><mpath href="#pipe"/></animateMotion></circle>
-  </g>
-
-  <!-- sources: stacked files -->
-  <g>
-    <rect x="676" y="118" width="40" height="48" rx="5" fill="#0B1120" stroke="#38BDF8" stroke-width="2" opacity="0.5" transform="translate(-8,-8)"/>
-    <rect x="676" y="118" width="40" height="48" rx="5" fill="#0B1120" stroke="#38BDF8" stroke-width="2" opacity="0.75" transform="translate(-4,-4)"/>
-    <rect x="676" y="118" width="40" height="48" rx="5" fill="#0B1120" stroke="#38BDF8" stroke-width="2"/>
-    <line x1="684" y1="132" x2="708" y2="132" stroke="#38BDF8" stroke-width="2"/>
-    <line x1="684" y1="142" x2="708" y2="142" stroke="#38BDF8" stroke-width="2"/>
-    <line x1="684" y1="152" x2="700" y2="152" stroke="#38BDF8" stroke-width="2"/>
-  </g>
-
-  <!-- layers -->
-  <g stroke-width="3" fill="#0B1120">
-    <circle cx="806" cy="150" r="28" stroke="#CD7F32"/>
-    <circle cx="923" cy="150" r="28" stroke="#CBD5E1"/>
-    <circle cx="1040" cy="150" r="28" stroke="#FBBF24" filter="url(#glow)"/>
-  </g>
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="18" font-weight="700" text-anchor="middle">
-    <text x="806" y="156" fill="#CD7F32">B</text>
-    <text x="923" y="156" fill="#CBD5E1">S</text>
-    <text x="1040" y="156" fill="#FBBF24">G</text>
-  </g>
-
-  <!-- analytics: bar chart -->
-  <g fill="#FBBF24">
-    <rect x="1112" y="146" width="10" height="20" rx="2" opacity="0.6"/>
-    <rect x="1126" y="132" width="10" height="34" rx="2" opacity="0.8"/>
-    <rect x="1140" y="120" width="10" height="46" rx="2"/>
-  </g>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" text-anchor="middle">
-    <text x="692" y="206" fill="#7DD3FC">sources</text>
-    <text x="806" y="206" fill="#CD7F32">bronze</text>
-    <text x="923" y="206" fill="#CBD5E1">silver</text>
-    <text x="1040" y="206" fill="#FBBF24">gold</text>
-    <text x="1131" y="206" fill="#FBBF24">insight</text>
-  </g>
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748B">
-    <text x="806" y="226">raw</text>
-    <text x="923" y="226">clean + validated</text>
-    <text x="1040" y="226">business-ready</text>
-  </g>
+  <g><rect x="652" y="78" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.20"/>
+    <rect x="652" y="110" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.33"/>
+    <rect x="652" y="142" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.46"/>
+    <rect x="652" y="174" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.59"/>
+    <rect x="702" y="78" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.20"/>
+    <rect x="702" y="110" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.33"/>
+    <rect x="702" y="142" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.46"/>
+    <rect x="702" y="174" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.59"/>
+    <rect x="752" y="78" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.33"/>
+    <rect x="752" y="110" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.46"/>
+    <rect x="752" y="142" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.59"/>
+    <rect x="752" y="206" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.59"/>
+    <rect x="802" y="78" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.33"/>
+    <rect x="802" y="110" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.46"/>
+    <rect x="802" y="142" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.59"/>
+    <rect x="802" y="206" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.59"/>
+    <rect x="852" y="78" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.33"/>
+    <rect x="852" y="110" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.46"/>
+    <rect x="852" y="142" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.59"/>
+    <rect x="852" y="206" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.59"/>
+    <rect x="902" y="78" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.46"/>
+    <rect x="902" y="110" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.59"/>
+    <rect x="902" y="174" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.59"/>
+    <rect x="902" y="206" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.46"/>
+    <rect x="952" y="78" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.46"/>
+    <rect x="952" y="110" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.59"/>
+    <rect x="952" y="174" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.59"/>
+    <rect x="952" y="206" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.46"/>
+    <rect x="1002" y="78" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.59"/>
+    <rect x="1002" y="142" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.59"/>
+    <rect x="1002" y="174" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.46"/>
+    <rect x="1002" y="206" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.33"/>
+    <rect x="1052" y="78" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.59"/>
+    <rect x="1052" y="142" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.59"/>
+    <rect x="1052" y="174" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.46"/>
+    <rect x="1052" y="206" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.33"/>
+    <rect x="1102" y="110" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.59"/>
+    <rect x="1102" y="142" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.46"/>
+    <rect x="1102" y="174" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.33"/>
+    <rect x="1102" y="206" width="36" height="22" rx="6" fill="none" stroke="#334155" stroke-width="1.1" opacity="0.20"/></g>
+  <path d="M 670 217 L 720 217 L 770 185 L 820 185 L 870 185 L 920 153 L 970 153 L 1020 121 L 1070 121 L 1120 89" fill="none" stroke="url(#route)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+  <g filter="url(#soft)"><rect x="652" y="206" width="36" height="22" rx="6" fill="#38bdf8" opacity="0.92">
+      <animate attributeName="opacity" values="0.72;1;0.72" dur="3.2s" begin="0.00s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="702" y="206" width="36" height="22" rx="6" fill="#4ebde0" opacity="0.92">
+      <animate attributeName="opacity" values="0.72;1;0.72" dur="3.2s" begin="0.22s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="752" y="174" width="36" height="22" rx="6" fill="#63bdc9" opacity="0.92">
+      <animate attributeName="opacity" values="0.72;1;0.72" dur="3.2s" begin="0.44s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="802" y="174" width="36" height="22" rx="6" fill="#79beb1" opacity="0.92">
+      <animate attributeName="opacity" values="0.72;1;0.72" dur="3.2s" begin="0.66s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="852" y="174" width="36" height="22" rx="6" fill="#8fbe9a" opacity="0.92">
+      <animate attributeName="opacity" values="0.72;1;0.72" dur="3.2s" begin="0.88s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="902" y="142" width="36" height="22" rx="6" fill="#a4be82" opacity="0.92">
+      <animate attributeName="opacity" values="0.72;1;0.72" dur="3.2s" begin="1.10s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="952" y="142" width="36" height="22" rx="6" fill="#babe6b" opacity="0.92">
+      <animate attributeName="opacity" values="0.72;1;0.72" dur="3.2s" begin="1.32s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1002" y="110" width="36" height="22" rx="6" fill="#d0bf53" opacity="0.92">
+      <animate attributeName="opacity" values="0.72;1;0.72" dur="3.2s" begin="1.54s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1052" y="110" width="36" height="22" rx="6" fill="#e5bf3c" opacity="0.92">
+      <animate attributeName="opacity" values="0.72;1;0.72" dur="3.2s" begin="1.76s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1102" y="78" width="36" height="22" rx="6" fill="#fbbf24" opacity="0.92">
+      <animate attributeName="opacity" values="0.72;1;0.72" dur="3.2s" begin="1.98s" repeatCount="indefinite"/>
+    </rect></g>
+  <g><line x1="652" y1="254" x2="738" y2="254" stroke="#1E293B" stroke-width="1.5"/>
+    <line x1="652" y1="250" x2="652" y2="254" stroke="#1E293B" stroke-width="1.5"/>
+    <line x1="738" y1="250" x2="738" y2="254" stroke="#1E293B" stroke-width="1.5"/>
+    <text x="695" y="272" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" letter-spacing="1.6" fill="#64748B">INGEST</text>
+    <line x1="752" y1="254" x2="888" y2="254" stroke="#1E293B" stroke-width="1.5"/>
+    <line x1="752" y1="250" x2="752" y2="254" stroke="#1E293B" stroke-width="1.5"/>
+    <line x1="888" y1="250" x2="888" y2="254" stroke="#1E293B" stroke-width="1.5"/>
+    <text x="820" y="272" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" letter-spacing="1.6" fill="#64748B">MODEL</text>
+    <line x1="902" y1="254" x2="1038" y2="254" stroke="#1E293B" stroke-width="1.5"/>
+    <line x1="902" y1="250" x2="902" y2="254" stroke="#1E293B" stroke-width="1.5"/>
+    <line x1="1038" y1="250" x2="1038" y2="254" stroke="#1E293B" stroke-width="1.5"/>
+    <text x="970" y="272" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" letter-spacing="1.6" fill="#64748B">ORCHESTRATE</text>
+    <line x1="1052" y1="254" x2="1138" y2="254" stroke="#1E293B" stroke-width="1.5"/>
+    <line x1="1052" y1="250" x2="1052" y2="254" stroke="#1E293B" stroke-width="1.5"/>
+    <line x1="1138" y1="250" x2="1138" y2="254" stroke="#1E293B" stroke-width="1.5"/>
+    <text x="1095" y="272" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" letter-spacing="1.6" fill="#64748B">SERVE</text></g>
 </svg>
